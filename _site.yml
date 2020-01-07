@@ -1,0 +1,13 @@
+name: "YorkU.BioStats.2019"
+navbar:
+  title: "YorkU.BioStats.2019"
+  left:
+    - text: "Info"
+      href: index.html
+    - text: "Program"
+      href: Analysis.Fundamental//Intro.html
+    - text: "Registration"
+      href: Univariate//index.html
+    - text: "Location"
+      href: Ordinations/ordinations.html 
+output_dir: "."

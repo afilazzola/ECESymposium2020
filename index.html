@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Extreme Climate Events Symposium 2020</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">YorkU.BioStats.2019</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Info</a>
+</li>
+<li>
+  <a href="Analysis.Fundamental//Intro.html">Program</a>
+</li>
+<li>
+  <a href="Univariate//index.html">Registration</a>
+</li>
+<li>
+  <a href="Ordinations/ordinations.html">Location</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Extreme Climate Events Symposium 2020</h1>
+<h4 class="date">January 2020</h4>
+
+</div>
+
+
+<div style="width:800px; height=350px">
+<p><img src="images/panorama.jpg" /></p>
+</div>
+<p><embed src="images/desert.jpg%20=300x" /> <embed src="images/alpine.jpg%20=300x" /></p>
+<img src="images/desert.jpg" /> <img src="images/alpine.jpg" />
+</div>
+<table>
+<thead>
+<tr class="header">
+<th><a href="https://www.yorku.ca/index.html">York University</a></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>October 8th, 2019</td>
+<td><strong>Instructor</strong>: <a href="http://www.filazzola.info">Alex Filazzola</a></td>
+</tr>
+<tr class="even">
+<td>12:15 - 2:00 pm</td>
+<td><strong>306 Lumbers</strong></td>
+</tr>
+</tbody>
+</table>
+<div id="general-information" class="section level2">
+<h2>General Information</h2>
+<p>Biologists cover a diverse set of disciplines (e.g. ecology, evolution, cell biology) and are thus expected to know a larger range of statistics. However, knowledge of the appropriate statistic test to answer a biological question can be a major limitation for researchers. This workshop is an introduction to the different methods and statistical approaches to analyzing data in all disciplines of biology. The workshop will focus on how to match the available data to possible analyses. I will discuss relevant analyses when there are multiple response variables, multiple predictors, and examples of presenting interactions (both statistical and biological). I will also discuss graphical representation of results and data manipulation. No prior knowledge is necessary, but some basic understanding of the R environment will make the workshop more relevant and useful. The goal of this workshop will be to provide a glossary of potential analyses that will assist understanding and presenting biological data.</p>
+<p><strong>Who</strong>: The course is aimed at R beginners to intermediate analysts. Some previous knowledge of R would be useful.</p>
+<p><strong>Where</strong>: York University, 306 Lumbers</p>
+<p><strong>What else?</strong>: If learning biostats isn’t enough of a draw for you, we will be providing free food!!</p>
+<p><strong>Requirements</strong>: Participants should bring a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) with administrative privileges. If you want to work along during tutorial, you must have R studio installed on your own computer (See below for instructions). However, if you prefer to watch, you are welcome to attend because all examples will be presented via a projector in the classroom.</p>
+<p><strong>Contact</strong>: Please contact <a href="mailto:alex.filazzola@outlook.com" class="email">alex.filazzola@outlook.com</a> for more information.</p>
+<div style="width:195px; text-align:center;">
+<iframe src="https://www.eventbrite.com/countdown-widget?eid=74498897207" frameborder="0" height="332" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true">
+</iframe>
+<div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:195px; text-align:center;">
+<a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/">Powered by Eventbrite</a>
+</div>
+</div>
+</div>
+<div id="schedule" class="section level2">
+<h2>Schedule</h2>
+<p><a href="https://docs.google.com/document/d/1len4qcM-EkEMOl0NuNROyqlqMruqg4B4TZm4OS0NPoQ/edit">Live Notepad</a></p>
+<table>
+<thead>
+<tr class="header">
+<th>Time</th>
+<th>Goal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>12:15</td>
+<td>Meet &amp; greet. Test software</td>
+</tr>
+<tr class="even">
+<td>12:30</td>
+<td><a href="Analysis.Fundamental//Intro.html">Analysis Fundamentals</a></td>
+</tr>
+<tr class="odd">
+<td>12:35</td>
+<td><a href="Univariate//index.html">Univariate Stats</a></td>
+</tr>
+<tr class="even">
+<td>1:00</td>
+<td><a href="Indices//ordinations.html">Multivariate analyses</a></td>
+</tr>
+<tr class="odd">
+<td>1:30</td>
+<td><a href="graphics//graphics.html">Graphics</a></td>
+</tr>
+<tr class="even">
+<td>1:55</td>
+<td>De-brief</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="software" class="section level2">
+<h2>Software</h2>
+<div id="r" class="section level4">
+<h4>R</h4>
+<p><a href="http://www.r-project.org/">R</a> is a programming language that is especially powerful for data exploration, visualization, and statistical analysis. To interact with R, we use <a href="http://www.rstudio.com/">RStudio</a>.</p>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Windows</th>
+<th>Mac OS X</th>
+<th>Linux</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Install R by downloading and running <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe</a> file from <a href="http://cran.r-project.org/index.html">CRAN</a>. Please also install the <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.</td>
+<td>Install R by downloading and running <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg</a> file from <a href="http://cran.r-project.org/index.html">CRAN</a>. Please also install the <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.</td>
+<td>You can download the binary files for your distribution from <a href="http://cran.r-project.org/index.html">CRAN</a>. Please also install the <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="packages" class="section level4">
+<h4>Packages</h4>
+<p>Please install the <code>LearnCommAnalysis</code> package before attending. This package contains all the datasets, packages, and functions that will be used in the workshop. The package is available through Github and thus must be installed using <code>devtools</code> package. If you do not have <code>devtools</code>, please install that first before running the command below. There are multiple packages that are installed along-side this package. Therefore, the installation can take some time and could be prone to error. Please do this prior to attending to save time and troubleshoot errors. The most common error is that not all dependencies (i.e. packages that are dependent on other packages) were installed. Read the error message, and if this is an issue, install the package that is missing.</p>
+<pre class="r"><code>library(devtools)
+install_github(&quot;afilazzola/LearnCommAnalysis&quot;)
+
+## Load package
+library(LearnCommAnalysis)</code></pre>
+</div>
+</div>
+<div id="other-workshops" class="section level2">
+<h2>Other workshops</h2>
+<p>If you enjoyed this workshop and were interested in learning more, I also run a workshops on <a href="https://afilazzola.github.io/YorkU.GLM.2017-04-28/">R-basics and Introduction to Generalized Linear Modelling (GLM)</a>, <a href="https://afilazzola.github.io/UoA.GithubWorkshop.2018/">Using Github for Scientific Reproducibility</a>, and a short introduction on using <a href="https://afilazzola.github.io/Functions.workshop.YorkU2017/">Functions in R</a>.</p>
+<p>You can find similar style workshops, usually that are longer and go into more detail, with <a href="https://software-carpentry.org/">Software Carpentry</a>. They have teachers available globally and cover all forms of programming beyond R.</p>
+<p><img src="images/YorkUlogo.jpg" width="200"/> <img src="images/UoA.png" width="250"/> <img src="images/FilazzolaLab.png" width="200"/></p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
