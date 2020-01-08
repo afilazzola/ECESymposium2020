@@ -28,4 +28,4 @@ Talks are 12 minutes long allowing 3 minutes for questions. We are requesting yo
 
 ### Submission
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScG6hNl1bM6JD_d18TqzJwSjF22PBKNd60w2YiouZb4ZrQgsQ/viewform?embedded=true" width="640" height="1400" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScG6hNl1bM6JD_d18TqzJwSjF22PBKNd60w2YiouZb4ZrQgsQ/viewform?embedded=true" width="640" height="1300" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
