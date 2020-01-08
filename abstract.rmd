@@ -1,12 +1,11 @@
 ---
-title: "Abstract Submission"
+title: "Extreme Climate Events Symposium 2020"
 date: ""
 output: 
   html_document:
     theme: sandstone
-    toc: TRUE
-    toc_float: TRUE
-    css: style.css
+    toc: true
+    toc_float: true
 editor_options: 
   chunk_output_type: console
 ---
