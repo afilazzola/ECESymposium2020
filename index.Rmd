@@ -6,6 +6,7 @@ output:
     theme: sandstone
     toc: true
     toc_float: true
+    css: style.css
 editor_options: 
   chunk_output_type: console
 ---
@@ -24,8 +25,6 @@ Climate extremes, such as extended drought, heavy rainfall leading to flooding, 
 **What**: The objective of the symposium is connect researchers examining extreme climate events and improve the ability of attendees to quantify/analyze extreme climate events in their respective area of research. The symposium will connect leading experts of extreme climate events in ecological research and include presentations of researchers currently exploring climate extremes. 
 
 **Where**: York University, room TBD
-
-**Contact**: Please contact alex.filazzola@outlook.com for more information.
 
 ## Schedule
 

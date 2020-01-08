@@ -6,6 +6,7 @@ output:
     theme: sandstone
     toc: true
     toc_float: true
+    css: style.css
 editor_options: 
   chunk_output_type: console
 ---
