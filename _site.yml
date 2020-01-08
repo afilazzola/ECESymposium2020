@@ -5,7 +5,7 @@ navbar:
     - text: "Info"
       href: index.html
     - text: "Abstract submission"
-      href: Analysis.Fundamental//Intro.html
+      href: abstract.html
     - text: "Registration"
       href: Univariate//index.html
     - text: "Location"
