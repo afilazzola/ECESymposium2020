@@ -7,7 +7,7 @@ navbar:
     - text: "Abstract submission"
       href: abstract.html
     - text: "Registration"
-      href: Univariate//index.html
+      href: registration.html
     - text: "Location"
       href: Ordinations/ordinations.html 
 output_dir: "."
