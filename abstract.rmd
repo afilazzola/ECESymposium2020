@@ -1,0 +1,31 @@
+---
+title: "Abstract Submission"
+date: ""
+output: 
+  html_document:
+    theme: sandstone
+    toc: TRUE
+    toc_float: TRUE
+    css: style.css
+editor_options: 
+  chunk_output_type: console
+---
+
+
+### Call
+
+Share your science on ecology and extreme climates at the first symposium fo its kind at York University. We are looking for anyone conducting research on the effects of extreme climate on natural systems. Submissions are open **now** and will close on **February 9th, 2020**
+
+![](images/talk.jpg)
+
+<br>
+
+### Abstract guidelines 
+
+Talks are 12 minutes long allowing 3 minutes for questions. We are requesting your submit your talk title, your name, institution, and any co-authors associated with your paper. We also request your submit the highlights or major findings from your article in 3-4 bullet points. 
+
+<br>
+
+### Submission
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScG6hNl1bM6JD_d18TqzJwSjF22PBKNd60w2YiouZb4ZrQgsQ/viewform?embedded=true" width="640" height="1130" frameborder="0" marginheight="0" marginwidth="0"></iframe>
