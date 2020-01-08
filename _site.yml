@@ -1,6 +1,6 @@
-name: "YorkU.BioStats.2019"
+name: "ECESymposium2020"
 navbar:
-  title: "YorkU.BioStats.2019"
+  title: "ECESymposium2020"
   left:
     - text: "Info"
       href: index.html
