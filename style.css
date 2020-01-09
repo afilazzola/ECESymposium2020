@@ -2,8 +2,11 @@
 body{
   font-family: Helvetica;
   font-size: 14pt;
+  background: #f1f2f2;
 }
 /* Headers */
 h1,h2,h3,h4,h5,h6{
   font-size: 24pt;
+  font-family: Helvetica  !important;
 }
+

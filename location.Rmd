@@ -1,5 +1,5 @@
 ---
-title: "Location"
+title: "Extreme Climate Events Symposium 2020"
 date: ""
 output: 
   html_document:
@@ -11,7 +11,11 @@ editor_options:
   chunk_output_type: console
 ---
 
-### York University
+<br>
+
+### Location
+
+**York University**
 
 4700 Keele St
 

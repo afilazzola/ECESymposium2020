@@ -1,5 +1,5 @@
 ---
-title: "Registration"
+title: "Extreme Climate Events Symposium 2020"
 date: ""
 output: 
   html_document:
@@ -12,6 +12,8 @@ editor_options:
 ---
 
 <br>
+
+### Registration
 
 Join ecologists from across North America to examine the role of extreme climate events play in effecting our natural systems.
 
