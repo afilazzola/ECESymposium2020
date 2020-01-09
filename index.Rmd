@@ -11,11 +11,9 @@ editor_options:
   chunk_output_type: console
 ---
 
-<div style="width:800px; height=350px">
-![](images/panorama.jpg)
-</div>
+![](images/threeimages.jpg)
 
-<img src="images/desert.jpg" alt="desert" width="400"/> <img src="images/alpine.jpg" alt="alpine" width="400"/>
+<br>
 
 
 ## General Information
