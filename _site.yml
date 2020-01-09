@@ -9,5 +9,5 @@ navbar:
     - text: "Registration"
       href: registration.html
     - text: "Location"
-      href: Ordinations/ordinations.html 
+      href: location.html 
 output_dir: "."
