@@ -26,6 +26,8 @@ M3J 1P3
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11523.885409615827!2d-79.5018684!3d43.7734535!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdbb899cc9da76d19!2sYork%20University!5e0!3m2!1sen!2sca!4v1578585470787!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
+<br>
+
 ### Accomodation
 
 For those travelling out of town, we have a group rate available at the [Schulich Executive Learning Center](http://www.acc-schulichexecutiveconferencecentre.com/hot-dates--rates.html) that includes a hotel room with a continental breakfast. Please contact [Alessandro](alex.filazzola@outlook.com) for information on how to book.
