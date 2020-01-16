@@ -50,7 +50,7 @@ Climate extremes, such as extended drought, heavy rainfall leading to flooding, 
 
 ## Sponsors
 
-<img src="images/logoyorkU.svg" alt="drawing" width="450"/>
+<img src="images/logoyorkU.svg" alt="drawing" width="400"/> <img src="images/CIEELogo.jpeg" alt="drawing" width="400"/>
 
 
 <br>
