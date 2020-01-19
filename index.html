@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -82,7 +82,9 @@ h6 {
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
+</head>
 
+<body>
 
 <style type = "text/css">
 .main-container {
@@ -96,6 +98,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -200,6 +203,8 @@ $(document).ready(function () {
 });
 </script>
 
+<div class="container-fluid main-container">
+
 <!-- tabsets -->
 
 <style type="text/css">
@@ -244,7 +249,6 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
-  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -257,9 +261,48 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <style type="text/css">
 
@@ -273,12 +316,6 @@ $(document).ready(function () {
 }
 }
 
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
 
 .toc-content {
   padding-left: 30px;
@@ -314,6 +351,8 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -322,16 +361,6 @@ div.tocify {
 
 
 </style>
-
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
-
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -386,7 +415,10 @@ div.tocify {
 </div>
 
 
-<p><img src="images/threeimages.jpg" /></p>
+<div class="figure">
+<img src="images/threeimages.jpg" />
+
+</div>
 <p><br></p>
 <div id="purpose" class="section level2">
 <h2>Purpose</h2>
@@ -455,12 +487,12 @@ div.tocify {
 </div>
 <div id="purpose-1" class="section level2">
 <h2>Purpose</h2>
-<p>Climate extremes, such as extended drought, heavy rainfall leading to flooding, and severe frost events, are predicted to increase in magnitude, duration, and frequency (IPCC 2014). Climate extremes affect ecosystems globally on an annual basis <a href="https://www.sciencedirect.com/science/article/pii/S0048969718305047">(Du et al. 2018;</a> <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2012JG002136">Zhang et al. 2013</a> and are expected to be more impactful driver of community assembly than gradual shifts in climate <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/1540-9295%282007%295%5B365%3AANGOCE%5D2.0.CO%3B2">(Jentsch, Kreyling &amp; Beierkuhnlein 2007</a><a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2745.2011.01833.x">; Smith 2011)</a>. Extreme climate events (ECE) are defined as a period where climate conditions surpass a threshold value from those previously observed (e.g. the 90th percentile) that elicit an extreme ecological response <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2745.2011.01833.x">(Smith 2011)</a>. However, not all climate extremes result in ECEs.Given the forecast of intensified climate extremes, there is a need to understand when extreme climate conditions result in extreme ecological responses and under which circumstances they do not, as ECE events should result in long-lasting impacts on ecosystems <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2745.2011.01833.x">(Smith 2011)</a>. Our ability to effectively predict the effects of climate change requires examining large-scale and long-term datasets to generate to tools necessary for improving our understanding of ECEs.</p>
+<p>Climate extremes, such as extended drought, heavy rainfall leading to flooding, and severe frost events, are predicted to increase in magnitude, duration, and frequency (IPCC 2014). Climate extremes affect ecosystems globally on an annual basis <a href="https://www.sciencedirect.com/science/article/pii/S0048969718305047">(Du et al. 2018;</a> <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2012JG002136">Zhang et al. 2013</a> and are expected to be more impactful driver of community assembly than gradual shifts in climate <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/1540-9295%282007%295%5B365%3AANGOCE%5D2.0.CO%3B2">(Jentsch, Kreyling &amp; Beierkuhnlein 2007</a><a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2745.2011.01833.x">; Smith 2011)</a>. Extreme climate events (ECE) are defined as a period where climate conditions surpass a threshold value from those previously observed (e.g. the 90th percentile) that elicit an extreme ecological response <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2745.2011.01833.x">(Smith 2011)</a>. However, not all climate extremes result in ECEs.Given the forecast of intensified climate extremes, there is a need to understand when extreme climate conditions result in extreme ecological responses and under which circumstances they do not, as ECE events should result in long-lasting impacts on ecosystems <a href="https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2745.2011.01833.x">(Smith 2011)</a>. Our ability to effectively predict the effects of climate change requires examining large-scale and long-term datasets to generate to tools necessary for improving our understanding of ECEs.</p>
 <p><br></p>
 </div>
 <div id="sponsors" class="section level2">
 <h2>Sponsors</h2>
-<p><img src="images/logoyorkU.svg" alt="drawing" width="450"/></p>
+<p><img src="images/logoyorkU.svg" alt="drawing" width="400"/> <img src="images/CIEELogo.jpeg" alt="drawing" width="400"/></p>
 <p><br></p>
 </div>
 <div id="contact" class="section level2">
@@ -489,49 +521,6 @@ $(document).ready(function () {
 });
 
 
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
