@@ -4,6 +4,8 @@ date: ""
 output: 
   html_document:
     theme: sandstone
+    includes:
+      in_header: header.html
     toc: true
     toc_float: true
     css: style.css
