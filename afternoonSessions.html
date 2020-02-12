@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -70,7 +70,9 @@ h6 {
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
+</head>
 
+<body>
 
 <style type = "text/css">
 .main-container {
@@ -84,6 +86,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -188,6 +191,8 @@ $(document).ready(function () {
 });
 </script>
 
+<div class="container-fluid main-container">
+
 <!-- tabsets -->
 
 <style type="text/css">
@@ -232,7 +237,6 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
-  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -245,17 +249,20 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
-
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
 
 
 
@@ -308,19 +315,9 @@ $(document).ready(function () {
 
 
 <br>
-<html xmlns:v="urn:schemas-microsoft-com:vml"
-xmlns:o="urn:schemas-microsoft-com:office:office"
-xmlns:w="urn:schemas-microsoft-com:office:word"
-xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
-xmlns:b="urn:schemas-microsoft-com:office:publisher"
-xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
-xmlns="http://www.w3.org/TR/REC-html40">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:b="urn:schemas-microsoft-com:office:publisher" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=ProgId content=Word.Document>
-<meta name=Generator content="Microsoft Word 15">
-<meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="afternoonSession_files/filelist.xml"> <link rel=Edit-Time-Data href="afternoonSession_files/editdata.mso"> <!--[if !mso]>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252"> <meta name=ProgId content=Word.Document> <meta name=Generator content="Microsoft Word 15"> <meta name=Originator content="Microsoft Word 15"> <link rel=File-List href="afternoonSession_files/filelist.xml"> <link rel=Edit-Time-Data href="afternoonSession_files/editdata.mso"> <!--[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
 o\:* {behavior:url(#default#VML);}
@@ -1068,9 +1065,8 @@ div.WordSection1
   <o:idmap v:ext="edit" data="1"/>
  </o:shapelayout></xml><![endif]-->
 </head>
-<body lang=EN-US style='tab-interval:.5in'>
-<div class=WordSection1>
-
+<body lang="EN-US" style="tab-interval:.5in">
+<div class="WordSection1">
 <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
 normal">
 <!--[if gte vml 1]><v:rect id="Rectangle_x0020_1" o:spid="_x0000_s1026"
@@ -1125,12 +1121,11 @@ color:windowtext;mso-font-kerning:0pt;mso-ligatures:none;mso-contextual-alternat
 no"><o:p> </o:p></span>
 </p>
 <p><br style='mso-ignore:vglayout' clear=ALL></p>
-<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=720
- style='width:7.5in;border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:
- 0in 0in 0in 0in;z-index:1' v:shapes="_x0000_s1028" height=785>
-<tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:82.7pt'>
-<td width=122 valign=top style='width:91.15pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
-  height:82.7pt'>
+<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="720" style="width:7.5in;border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 0in 0in 0in;z-index:1" v:shapes="_x0000_s1028" height="785">
+<tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:82.7pt">
+<td width="122" valign="top" style="width:91.15pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
+  height:82.7pt">
 <p class="MsoNormal" style="margin-bottom:1.0pt;mso-pagination:none;tab-stops:
   2.-2283in">
 <span style="mso-armenian-font-family:Verdana;mso-currency-font-family:
@@ -1146,8 +1141,8 @@ no"><o:p> </o:p></span>
   mso-ansi-language:EN-CA"><o:p></o:p></span></i>
 </p>
 </td>
-<td width=598 valign=top style='width:448.85pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
-  height:82.7pt'>
+<td width="598" valign="top" style="width:448.85pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
+  height:82.7pt">
 <p class="MsoNormal" style="margin-bottom:1.0pt;mso-pagination:none;tab-stops:
   2.-2283in">
 <b><span lang="EN-CA" style="font-size:12.0pt;line-height:118%;
@@ -1179,9 +1174,9 @@ no"><o:p> </o:p></span>
 </p>
 </td>
 </tr>
-<tr style='mso-yfti-irow:1;height:83.5pt'>
-<td width=122 valign=top style='width:91.15pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
-  height:83.5pt'>
+<tr style="mso-yfti-irow:1;height:83.5pt">
+<td width="122" valign="top" style="width:91.15pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
+  height:83.5pt">
 <p class="MsoNormal" style="margin-bottom:1.0pt;mso-pagination:none;tab-stops:
   2.-2283in">
 <span style="mso-armenian-font-family:Verdana;mso-currency-font-family:
@@ -1197,8 +1192,8 @@ no"><o:p> </o:p></span>
   mso-ansi-language:EN-CA"><o:p></o:p></span></i>
 </p>
 </td>
-<td width=598 valign=top style='width:448.85pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
-  height:83.5pt'>
+<td width="598" valign="top" style="width:448.85pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
+  height:83.5pt">
 <p class="MsoNormal" style="margin-bottom:1.0pt;mso-pagination:none;tab-stops:
   2.-2283in">
 <b><span lang="EN-CA" style="font-size:12.0pt;line-height:118%;
@@ -1222,9 +1217,9 @@ no"><o:p> </o:p></span>
 </p>
 </td>
 </tr>
-<tr style='mso-yfti-irow:2;height:92.1pt'>
-<td width=122 valign=top style='width:91.15pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
-  height:92.1pt'>
+<tr style="mso-yfti-irow:2;height:92.1pt">
+<td width="122" valign="top" style="width:91.15pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
+  height:92.1pt">
 <p class="MsoNormal" style="margin-bottom:1.0pt;mso-pagination:none;tab-stops:
   2.-2283in">
 <span style="mso-armenian-font-family:Verdana;mso-currency-font-family:
@@ -1240,8 +1235,8 @@ no"><o:p> </o:p></span>
   mso-ansi-language:EN-CA"><o:p></o:p></span></i>
 </p>
 </td>
-<td width=598 valign=top style='width:448.85pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
-  height:92.1pt'>
+<td width="598" valign="top" style="width:448.85pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
+  height:92.1pt">
 <p class="MsoNormal" style="margin-bottom:1.0pt;mso-pagination:none;tab-stops:
   2.-2283in">
 <b><span lang="EN-CA" style="font-size:12.0pt;line-height:118%;
@@ -1265,9 +1260,9 @@ no"><o:p> </o:p></span>
 </p>
 </td>
 </tr>
-<tr style='mso-yfti-irow:3;height:76.25pt'>
-<td width=122 valign=top style='width:91.15pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
-  height:76.25pt'>
+<tr style="mso-yfti-irow:3;height:76.25pt">
+<td width="122" valign="top" style="width:91.15pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
+  height:76.25pt">
 <p class="MsoNormal" style="margin-bottom:1.0pt;mso-pagination:none;tab-stops:
   2.-2283in">
 <span style="mso-armenian-font-family:Verdana;mso-currency-font-family:
@@ -1283,8 +1278,8 @@ no"><o:p> </o:p></span>
   mso-ansi-language:EN-CA"><o:p></o:p></span></i>
 </p>
 </td>
-<td width=598 valign=top style='width:448.85pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
-  height:76.25pt'>
+<td width="598" valign="top" style="width:448.85pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
+  height:76.25pt">
 <p class="MsoNormal" style="margin-bottom:1.0pt;mso-pagination:none;tab-stops:
   2.-2283in">
 <b><span lang="EN-CA" style="font-size:12.0pt;line-height:118%;
@@ -1309,9 +1304,9 @@ no"><o:p> </o:p></span>
 </p>
 </td>
 </tr>
-<tr style='mso-yfti-irow:4;height:110.4pt'>
-<td width=122 valign=top style='width:91.15pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
-  height:110.4pt'>
+<tr style="mso-yfti-irow:4;height:110.4pt">
+<td width="122" valign="top" style="width:91.15pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
+  height:110.4pt">
 <p class="MsoNormal" style="margin-bottom:1.0pt;mso-pagination:none;tab-stops:
   2.-2283in">
 <span style="mso-armenian-font-family:Verdana;mso-currency-font-family:
@@ -1327,8 +1322,8 @@ no"><o:p> </o:p></span>
   mso-ansi-language:EN-CA"><o:p></o:p></span></i>
 </p>
 </td>
-<td width=598 valign=top style='width:448.85pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
-  height:110.4pt'>
+<td width="598" valign="top" style="width:448.85pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
+  height:110.4pt">
 <p class="MsoNormal" style="margin-bottom:1.0pt;mso-pagination:none;tab-stops:
   2.-2283in">
 <b><span lang="EN-CA" style="font-size:12.0pt;line-height:118%;
@@ -1352,9 +1347,9 @@ no"><o:p> </o:p></span>
 </p>
 </td>
 </tr>
-<tr style='mso-yfti-irow:5;height:64.1pt'>
-<td width=122 valign=top style='width:91.15pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
-  height:64.1pt'>
+<tr style="mso-yfti-irow:5;height:64.1pt">
+<td width="122" valign="top" style="width:91.15pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
+  height:64.1pt">
 <p class="MsoNormal" style="margin-bottom:1.0pt;mso-pagination:none;tab-stops:
   2.-2283in">
 <span style="mso-armenian-font-family:Verdana;mso-currency-font-family:
@@ -1370,8 +1365,8 @@ no"><o:p> </o:p></span>
   mso-ansi-language:EN-CA"><o:p></o:p></span></i>
 </p>
 </td>
-<td width=598 valign=top style='width:448.85pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
-  height:64.1pt'>
+<td width="598" valign="top" style="width:448.85pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
+  height:64.1pt">
 <p class="MsoNormal" style="margin-bottom:1.0pt;mso-pagination:none;tab-stops:
   2.-2283in">
 <b><span lang="EN-CA" style="font-size:12.0pt;line-height:118%;
@@ -1395,9 +1390,9 @@ no"><o:p> </o:p></span>
 </p>
 </td>
 </tr>
-<tr style='mso-yfti-irow:6;mso-yfti-lastrow:yes;height:79.65pt'>
-<td width=122 valign=top style='width:91.15pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
-  height:79.65pt'>
+<tr style="mso-yfti-irow:6;mso-yfti-lastrow:yes;height:79.65pt">
+<td width="122" valign="top" style="width:91.15pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
+  height:79.65pt">
 <p class="MsoNormal" style="margin-bottom:1.0pt;mso-pagination:none;tab-stops:
   2.-2283in">
 <span style="mso-armenian-font-family:Verdana;mso-currency-font-family:
@@ -1413,8 +1408,8 @@ no"><o:p> </o:p></span>
   mso-ansi-language:EN-CA"><o:p></o:p></span></i>
 </p>
 </td>
-<td width=598 valign=top style='width:448.85pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
-  height:79.65pt'>
+<td width="598" valign="top" style="width:448.85pt;padding:2.9pt 2.9pt 2.9pt 2.9pt;
+  height:79.65pt">
 <p class="MsoNormal" style="margin-bottom:1.0pt;mso-pagination:none;tab-stops:
   2.-2283in">
 <b><span lang="EN-CA" style="font-size:12.0pt;line-height:118%;
@@ -1463,23 +1458,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
