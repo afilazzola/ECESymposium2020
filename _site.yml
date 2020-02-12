@@ -9,5 +9,9 @@ navbar:
     - text: "Registration"
       href: registration.html
     - text: "Location"
-      href: location.html 
+      href: location.html
+    - text: "Program"
+      href: SymposiumProgram.pdf
+    - text: "Map"
+      href: map.jpg
 output_dir: "."

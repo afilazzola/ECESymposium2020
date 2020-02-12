@@ -25,22 +25,23 @@ editor_options:
 
 ##  General Information
 
-The symposium will be held on **Feb 19, 2020** at York University. Stedman Lecture Hall B
+The symposium will be held on **Feb 19, 2020** at York University. [Stedman Lecture Hall B](map.jpg)
 
 <br>
 **Schedule** 
 
 Time   | Goal
 -------|------------
-08:30  | Arrival/Registration
+08:45  | Arrival/Registration
+09:00  | Opening remarks
 09:15  | Plenary by [Dr. Melinda Smith](https://wp.natsci.colostate.edu/smithlab/)
 10:00 | Plenary by [Dr. Kate Wilkins](https://kate-wilkins.weebly.com/)
-10:45  | Coffee Break
-11:00  | Submitted talks (15 min each)
+10:30  | Coffee Break
+10:45  | [Submitted talks](morningSessions.html)
 12:30  | Lunch provided
-01:30  | Submitted talks (15 min each)
-02:45 | Coffee break
-03:00 | Interactive session on testing ECEs
+01:30  | [Submitted talks](afternoonSessions.html)
+03:15 | Coffee break
+03:30 | Panel discussion on ECEs
 4:00  | Closing remarks
 4:15 | End
 
